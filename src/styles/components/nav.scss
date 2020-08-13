@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+nav li:hover {
+  text-decoration: none;
+  color: #ddbd54;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #010101;
+  color: #ffffff;
+}
+
+.logo {
+  width: 64px;
+}

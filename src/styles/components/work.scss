@@ -1,0 +1,96 @@
+section {
+  position: absolute;
+  width: 100%;
+  height: 73%;
+  margin-left: 4%;
+  display: flex;
+
+}
+
+section .project {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  background: grey;
+  border-right: 2px solid white;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+section .project:last-child {
+  border-right: none;
+}
+
+.project:hover {
+  flex-grow: 5;
+}
+
+section .project:nth-child(1) {
+  background: url("/images/datefox.jpg");
+  background-position: center center;
+}
+
+section .project:nth-child(2) {
+  background: url("/images/gardenfox.jpg");
+  background-position: center center;
+}
+
+section .project:nth-child(3) {
+  background: url("/images/project.jpg");
+  background-position: center center;
+}
+
+section .project:nth-child(4) {
+  background: url("/images/project.jpg");
+  background-position: center center;
+}
+
+section .project:nth-child(5) {
+  background: url("/images/project.jpg");
+  background-position: center center;
+}
+section .project:nth-child(6) {
+  background: url("/images/project.jpg");
+  background-position: center center;
+}
+
+section .project .description {
+  position: absolute;
+  bottom: 0;
+  margin: 40px;
+  padding: 30px;
+  background: #000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0s;
+  transform: translateY(100px);
+}
+
+section .project:hover .description {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  transform: translateY(0);
+}
+
+section .description h4 {
+  letter-spacing: 2px;
+}
+
+section .description a{
+  color: #f2f4f7;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+section .description a:hover {
+  text-decoration: none;
+  color: #ddbd54;
+}
+
+section .description p {
+  letter-spacing: 2px;
+  font-size: 14px;
+}
