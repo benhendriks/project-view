@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  width: 1280px;
+  min-width: 1280;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  .page {
+    margin-top: 200px;
+    position: absolute;
+    .inner {
+      display: flex;
+      justify-content: center;
+      h1 {
+        font-size: 52px;
+        letter-spacing: .1rem;
+        .line-wrap {
+          overflow: hidden;
+          height: 66px;
+        }
+      }
+    }
+  }
+}

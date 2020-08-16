@@ -1,10 +1,15 @@
 import React from 'react';
 
+import Title from '../components/Title'
 
 function Home() {
   return (
-    <div className="App">
-      <h1>home</h1>
+    <div className="container">
+      <div className="page">
+        <div className="inner">
+          <Title />
+        </div>
+      </div>
     </div>
   );
 }
