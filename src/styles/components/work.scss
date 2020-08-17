@@ -1,6 +1,6 @@
 section {
   position: absolute;
-  width: 90%;
+  width: 92%;
   height: 73%;
   margin-left: 4%;
   display: flex;
@@ -26,12 +26,12 @@ section .project:last-child {
 }
 
 section .project:nth-child(1) {
-  background: url("/images/datefox.jpg");
+  background: url("/images/datefox.png");
   background-position: center center;
 }
 
 section .project:nth-child(2) {
-  background: url("/images/gardenfox.jpg");
+  background: url("/images/gardenfox.png");
   background-position: center center;
 }
 
