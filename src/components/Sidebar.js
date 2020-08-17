@@ -1,26 +1,22 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-import { FaEnvelope, FaLinkedinIn, FaGithub, FaInstagram} from 'react-icons/fa';
+import { FaEnvelope, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 
 function Sidebar() {
 
   return (
     <div className="socialbar">
-      <div className="sociallinks">
-        <Link className="icon" to="/contact">
+      <div className="social-links">
+        <a href="mailto:info@benjaminsteidl.com" >
           <FaEnvelope />
-        </Link>
-        <Link className="icon" to="/Work">
+        </a>
+        <a href="https://www.linkedin.com/feed/" target="blank">
           <FaLinkedinIn />
-        </Link>
-        <Link className="icon" to="/Work">
+        </a>
+        <a href="https://github.com/benhendriks" target="blank" >
           <FaGithub />
-        </Link>
-        <Link className="icon" to="/Work">
-          <FaInstagram />
-        </Link>
+        </a>
       </div>
     </div>
   );

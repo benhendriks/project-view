@@ -6,20 +6,17 @@
   display: flex;
   align-items: center;
   position: fixed;
-}
-
-.sociallinks {
-  padding: 20px;
-  font-size: 22px;
-  display: flex;
-  flex-direction: column;
-}
-
-.icon {
-  padding-top: 16px;
-  color: #ffffff;
-}
-
-.icon:hover {
-  color: #ddbd54;
+  .social-links {
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    a {
+      padding-top: 16px;
+      color: #fff;
+    }
+    a:hover {
+      color: #ddbd54;
+    }
+  }
 }
