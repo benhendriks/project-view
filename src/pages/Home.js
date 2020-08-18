@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Title from '../components/Title'
-import Title from '../components/Slide'
+import Slide from '../components/Slide'
 
 function Home() {
   return (
@@ -9,9 +9,9 @@ function Home() {
       <div className="page">
         <div className="inner">
           <Title />
-
         </div>
       </div>
+          <Slide />
     </div>
   );
 }

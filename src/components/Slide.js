@@ -9,28 +9,29 @@ const Slide = () => {
   let img3 = useRef(null);
 
   useEffect(() => {
-    gsap.from([line1, line2], 0.8, {
+    gsap.from([img1, img2, img3], 0.8, {
     delay: 0.8,
     ease: "power3.out",
-    y: 64,
+    x: 64,
     stagger: {
       amount: 0.15
     }
     });
-  }, [line1, line2]);
+  }, [img1, img2, img3]);
 
   return (
     <div className="slides">
-      <div className="img-slider">
+      <div className="img-slide">
         <div ref={el => img1 = el} className="img">
 
         </div>
       </div>
-      <div className="img-slider">
+      <div className="img-slide">
         <div ref={el => img2 = el} className="img">
 
         </div>
-        <div className="img-slider">
+      </div>
+      <div className="img-slide">
         <div ref={el => img3 = el} className="img">
 
         </div>
