@@ -1,24 +1,124 @@
+@import "./components/variables.scss";
 @import "./components/brakepoints.scss";
 @import "./components/nav.scss";
 @import "./components/sidebar.scss";
-@import "./components/slides.scss";
 @import "./components/footer.scss";
 @import "./components/home.scss";
 @import "./components/about.scss";
 @import "./components/work.scss";
 @import "./components/contact.scss";
 
-
-
 .App {
   height: 100vh;
-  background: #010101;
-  color: #ffffff;
+  background: $black;
+  color: $white;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
+.container {
+  width: 1560px;
+  min-width: 1560px;
+  margin: 0 auto;
+  @include media("<=1560px") {
+    width: 1280px;
+    min-width: 1280px;
+  }
+  @include media("<=desktop") {
+    width: 1080px;
+    min-width: 1080px;
+  }
+  @include media("<=1080px") {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
+.home {
+  @include media("<=tablet") {
+    .page {
+      width: 80%;
+      .inner {
+        h1 {
+          margin: auto;
+          font-size: 32px;
+          letter-spacing: 1px;
+          .line-wrap {
+            height: 32px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.about {
+  @include media("<=tablet") {
+    .info {
+      margin-top: 0;
+      margin-bottom: 10px;
+      width: 70%;
+      padding: 20px 0px;
+      p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+    }
+  }
+}
+
+.work {
+  @include media("<=tablet") {
+    section {
+      width: 80%;
+      section .project {
+        height: 80%;
+        .description {
+          padding: 20px 0px;
+          h2 {
+            font-size: 16px;
+            margin-bottom: 5px;
+          }
+          p {
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 1.2;
+          }
+        }
+      }
+    }
+  }
+  @include media("<=phone") {
+    section .project {
+
+    }
+  }
+}
+
+.contact {
+  @include media("<=tablet") {
+      height: 80vh;
+    .contact-info {
+      width: 80%;
+      padding: 20px 0px;
+      h3 {
+        font-size: 20px;
+      }
+      h4 {
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+      h5 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.2;
+      }
+    }
+  }
+}
 
 
 

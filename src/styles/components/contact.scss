@@ -1,5 +1,13 @@
-.contact-info {
-  width: 470px;
-  margin: 180px auto;
-  font-size: 24px;
+.contact {
+  background: $black;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .contact-info {
+    width: 470px;
+    margin: 180px auto;
+    font-size: 24px;
+  }
 }
+

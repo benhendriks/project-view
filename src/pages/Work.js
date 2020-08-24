@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Work() {
 
   return (
-    <div className="app">
+    <div className="work">
       <section>
           <div className="project">
             <div className="description">
@@ -14,7 +14,7 @@ function Work() {
                 <h2>Date Fox</h2>
               </a>
                 <p>
-                  Login and choose Munich as your City, then a Museum tour, a Dinner, a Bar and enjoy your date experience.
+                  Login, choose Munich, a Museum, a Dinner, a Bar and enjoy your date.
                 </p>
                 <p>
                   • Languages: Ruby on Rails, Javascript, HTML, CSS,
@@ -59,7 +59,6 @@ function Work() {
                 <h2>Single page app</h2>
               </Link>
                 <p>
-                  Login first and choose Munich as your City for a Dinner, a Bar, a Museum and enjoy your experience.
                   • Languages: Javascript, HTML, CSS,
                   • Databases: MySQL, Postgre SQL
                   • Client-Side: React, Bootstrap, JQuery
@@ -73,7 +72,6 @@ function Work() {
                 <h2>Pogressiv web app</h2>
               </Link>
                 <p>
-                  Login first and choose Munich as your City for a Dinner, a Bar, a Museum and enjoy your experience.
                   • Languages: Javascript, HTML, CSS,
                   • Databases: MySQL, Postgre SQL
                   • Client-Side: React, Bootstrap, JQuery

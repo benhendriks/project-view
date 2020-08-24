@@ -1,12 +1,12 @@
 .footer {
   width: 100%;
-  min-height: 4vh;
+  min-height: 6vh;
   margin-top: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: #b79336;
-  color: #ffffff;
+  color: $white;
 }
 
 .impressum {

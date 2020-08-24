@@ -1,17 +1,16 @@
 section {
   position: absolute;
+  margin-left: 60px;
   width: 92%;
   height: 73%;
-  margin-left: 4%;
   display: flex;
-
 }
 
 section .project {
   position: relative;
   height: 100%;
   flex: 1;
-  background: grey;
+  background: $white;
   border-right: 2px solid white;
   overflow: hidden;
   transition: 0.5s ease-in-out;
@@ -26,31 +25,31 @@ section .project:last-child {
 }
 
 section .project:nth-child(1) {
-  background: url("/images/datefox.png");
+  background: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1598282254/datefox_i5vlpv.png");
   background-position: center center;
 }
 
 section .project:nth-child(2) {
-  background: url("/images/gardenfox.png");
+  background: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1598282257/gardenfox_yt1hp5.png");
   background-position: center center;
 }
 
 section .project:nth-child(3) {
-  background: url("/images/project.jpg");
+  background: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1598282252/project_l5qf9p.jpg");
   background-position: center center;
 }
 
 section .project:nth-child(4) {
-  background: url("/images/project.jpg");
+  background: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1598282252/project_l5qf9p.jpg");
   background-position: center center;
 }
 
 section .project:nth-child(5) {
-  background: url("/images/project.jpg");
+  background: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1598282252/project_l5qf9p.jpg");
   background-position: center center;
 }
 section .project:nth-child(6) {
-  background: url("/images/project.jpg");
+  background: url("https://res.cloudinary.com/daf8fgekl/image/upload/v1598282252/project_l5qf9p.jpg");
   background-position: center center;
 }
 
