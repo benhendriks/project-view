@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/App.scss';
 
+import Head from'./components/Head';
 import Nav from'./components/Nav';
 import Sidebar from'./components/Sidebar';
 import Footer from './components/Footer';
@@ -16,15 +17,16 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
-          <Sidebar />
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/work" component={Work} />
-              <Route path="/contact" component={Contact} />
-            </Switch>
-          <Footer />
+        <Head />
+          <Nav />
+            <Sidebar />
+              <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/about" component={About} />
+                <Route path="/work" component={Work} />
+                <Route path="/contact" component={Contact} />
+              </Switch>
+            <Footer />
       </div>
     </Router>
   );
