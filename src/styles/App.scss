@@ -19,8 +19,8 @@
 }
 
 .container {
-  width: 1560px;
-  min-width: 1560px;
+  width: 1280px;
+  min-width: 1280px;
   margin: 0 auto;
   @include media("<=1560px") {
     width: 1280px;
@@ -41,30 +41,14 @@
     .page {
       width: 80%;
       .inner {
+        margin: 15% auto;
         h1 {
-          margin: auto;
           font-size: 32px;
           letter-spacing: 1px;
           .line-wrap {
             height: 32px;
           }
         }
-      }
-    }
-  }
-}
-
-.about {
-  @include media("<=1080px") {
-    .info {
-      margin-top: 0;
-      margin-bottom: 10px;
-      width: 70%;
-      padding: 20px 0px;
-      p {
-        font-size: 16px;
-        letter-spacing: 1px;
-        line-height: 1.2;
       }
     }
   }

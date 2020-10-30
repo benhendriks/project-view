@@ -10,11 +10,14 @@
       display: flex;
       align-items: center;
       h1 {
-        font-size: 52px;
+        font-size: 3.5rem;
         letter-spacing: 0.1rem;
         .line-wrap {
           overflow: hidden;
           height: 66px;
+        }
+        .title-img {
+          z-index: -1;
         }
       }
       @include media("<=1080px") {

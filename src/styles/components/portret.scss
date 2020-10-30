@@ -1,25 +1,21 @@
-.anim {
+.animation {
   img {
-    width: 700px;
-    @include media("<=1560px") {
-      width: 700px;
-      min-width: 700px;
-    }
-    @include media("<=desktop") {
-      width: 700px;
-      min-width: 700px;
-    }
-    @include media("<=1080px") {
-      width: 600px;
-      min-width: 600px;
-    }
+    width: 600px;
     @include media("<=tablet") {
       width: 500px;
       min-width: 500px;
     }
+    @include media("<=540px") {
+      width: 400px;
+      min-width: 400px;
+    }
     @include media("<=phone") {
-      width: 200px;
-      min-width: 200px;
+      width: 320px;
+      min-width: 320px;
+    }
+    @include media("<=280px") {
+      width: 260px;
+      min-width: 260px;
     }
   }
 }

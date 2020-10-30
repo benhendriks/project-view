@@ -9,7 +9,9 @@ function Home() {
         <div className="page">
           <div className="inner">
             <Title />
-            <Portret />
+            <div className="title-img">
+              <Portret />
+            </div>
           </div>
         </div>
 
