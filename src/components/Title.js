@@ -21,7 +21,7 @@ const Title = () => {
     <h1 className="page-title">
       <div className="line-wrap">
         <div ref={el => line1 = el} className="line">
-          Hi, i'm Ben,
+          Hi, I'm Ben,
         </div>
       </div>
       <div className="line-wrap">
