@@ -5,10 +5,10 @@ import Head from'./components/Head';
 import Nav from'./components/Nav';
 import Sidebar from'./components/Sidebar';
 import Footer from './components/Footer';
-import Home from'./pages/Home';
-import About from'./pages/About';
-import Work from './pages/Work';
-import Contact from './pages/Contact';
+import Home from'./pages/home';
+import About from'./pages/about';
+import Work from './pages/work';
+import Contact from './pages/contact';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

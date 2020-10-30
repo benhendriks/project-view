@@ -4,6 +4,7 @@
 @import "./components/sidebar.scss";
 @import "./components/footer.scss";
 @import "./components/home.scss";
+@import "./components/portret.scss";
 @import "./components/about.scss";
 @import "./components/work.scss";
 @import "./components/contact.scss";
@@ -54,7 +55,7 @@
 }
 
 .about {
-  @include media("<=tablet") {
+  @include media("<=1080px") {
     .info {
       margin-top: 0;
       margin-bottom: 10px;
@@ -103,7 +104,7 @@
 
 .contact {
   @include media("<=tablet") {
-      height: 80vh;
+    height: 80vh;
     .contact-info {
       width: 80%;
       padding: 20px 0px;
@@ -123,19 +124,3 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
