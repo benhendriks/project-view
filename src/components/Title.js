@@ -5,9 +5,11 @@ const Title = () => {
 
   let line1 = useRef(null);
   let line2 = useRef(null);
+  let line3 = useRef(null);
+
 
   useEffect(() => {
-    gsap.from([line1, line2], 0.8, {
+    gsap.from([line1, line2, line3], 0.8, {
     delay: 0.8,
     ease: "power3.out",
     y: 64,
@@ -26,7 +28,12 @@ const Title = () => {
       </div>
       <div className="line-wrap">
         <div ref={el => line2 = el} className="line">
-          a web developer.
+          a web developer
+        </div>
+      </div>
+      <div className="line-wrap">
+        <div ref={el => line3 = el} className="line">
+          based in Bern.
         </div>
       </div>
     </h1>

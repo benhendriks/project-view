@@ -17,11 +17,8 @@ function Work() {
                   Login, choose Munich, a Museum, a Dinner, a Bar and enjoy your date.
                 </p>
                 <p>
-                  • Languages: Ruby on Rails, Javascript, HTML, CSS,
-                  • Databases: MySQL, Postgre SQL
-                  • Client-Side: Bootstrap, JQuery
-                  • Architecture: RESTful API's, MVC, AJAX
-                </p>
+                  • Languages: Ruby on Rails, Javascript, HTML, CSS
+                </p> 
             </div>
           </div>
           <div className="project">
@@ -34,9 +31,6 @@ function Work() {
                 </p>
                 <p>
                   • Languages: Ruby on Rails, Javascript, HTML, CSS,
-                  • Databases: MySQL, Postgre SQL
-                  • Client-Side: Bootstrap, JQuery
-                  • Architecture: RESTful API's, MVC, AJAX
                 </p>
             </div>
           </div>
@@ -47,9 +41,6 @@ function Work() {
               </Link>
                 <p>
                   • Languages: Ruby on Rails, Javascript, HTML, CSS,
-                  • Databases: MySQL, Postgre SQL
-                  • Client-Side: Bootstrap, JQuery
-                  • Architecture: RESTful API's, MVC, AJAX
                 </p>
             </div>
           </div>
@@ -60,9 +51,6 @@ function Work() {
               </Link>
                 <p>
                   • Languages: Javascript, HTML, CSS,
-                  • Databases: MySQL, Postgre SQL
-                  • Client-Side: React, Bootstrap, JQuery
-                  • Architecture: RESTful API's, MVC, AJAX
                 </p>
             </div>
           </div>
@@ -73,9 +61,6 @@ function Work() {
               </Link>
                 <p>
                   • Languages: Javascript, HTML, CSS,
-                  • Databases: MySQL, Postgre SQL
-                  • Client-Side: React, Bootstrap, JQuery
-                  • Architecture: RESTful API's, MVC, AJAX
                 </p>
             </div>
           </div>
