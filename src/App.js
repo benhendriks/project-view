@@ -1,35 +1,41 @@
-import React from 'react';
-import './styles/App.scss';
-
-import Head from'./components/Head';
-import Nav from'./components/Nav';
-import Sidebar from'./components/Sidebar';
-import Footer from './components/Footer';
-import Home from'./pages/home';
-import About from'./pages/about';
-import Work from './pages/work';
-import Contact from './pages/contact';
-
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+import React from "react";
+import { Route, Switch, useLocation } from "react-router-dom";
+import GlobalStyle from "./components/GlobalStyle";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Work from "./pages/work";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Head from "./components/Head";
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
+  const location = useLocation();
   return (
-    <Router>
-      <div className="App">
-        <Head />
-          <Nav />
-            <Sidebar />
-              <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/work" component={Work} />
-                <Route path="/contact" component={Contact} />
-              </Switch>
-            <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <GlobalStyle />
+      <Head />
+      <Nav />
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.pathname}>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/about" exact>
+            <About />
+          </Route>
+          <Route path="/work" exact>
+            <Work />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </AnimatePresence>
+      <Footer />
+    </div>
   );
-}
+};
 
 export default App;

@@ -1,16 +1,21 @@
 import React from 'react';
-import Title from '../components/Title';
-import Portret from '../components/Portret';
+import HomeSection from '../components/HomeSection';
+import { motion } from 'framer-motion';
+import { pageAnimation } from '../animation';
+import ScrollTop from '../components/ScrollTop';
 
-function Home() {
+const Home = () => {
   return (
-    <div className="page">
-      <div className="inner">
-        <Title />
-        <Portret />            
-      </div>
-    </div>
+    <motion.div 
+      exit="exit" 
+      variants={pageAnimation} 
+      initial="hidden" 
+      animate="show"
+    >
+      <HomeSection />
+      <ScrollTop />
+    </motion.div>
   );
-}
+};
 
 export default Home;
