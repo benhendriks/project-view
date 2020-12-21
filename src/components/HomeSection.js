@@ -22,7 +22,7 @@ const AboutSection = () => {
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              a <span>Webdeveloper</span>,
+              a <span>Web Developer</span>,
             </motion.h2>
           </Hide>
           <Hide>
@@ -32,7 +32,7 @@ const AboutSection = () => {
           </Hide>
         </motion.div>
         <motion.p variants={fade}>
-          Contact me for any Web Project idears that you have. 
+          Contact me for any Web Project ideas that you have. 
         </motion.p>
         <Link to="/contact">
           <motion.button variants={fade}>Contact</motion.button>

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { lineAnim, pageAnimation, titleAnim } from '../animation';
 import styled from 'styled-components';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import ScrollTop from '../components/ScrollTop';
 
 const ContactStyle = styled(motion.div)`
   min-height: 90vh;
@@ -104,6 +105,7 @@ const ContactUs = () => {
           </Social>
         </Hide>
       </div>
+      <ScrollTop />
     </ContactStyle>
   );
 };

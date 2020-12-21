@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { useLocation } from 'react-router-dom';
+import Logo from '../img/logo.png';
 
 const NavStyle = styled.div`
   min-height: 10vh;
@@ -29,8 +30,6 @@ const NavStyle = styled.div`
   #logo {
     width: 2.5rem;
     height: 2rem;
-    font-family: "Lobster",cursive;
-    font-weight: lighter;
   }
   li {
     padding-left: 10rem;
@@ -70,11 +69,11 @@ const Nav = () => {
   const {pathname} = useLocation();
   return (
     <NavStyle>
-      <h1>
+      <div className="logo">
         <Link id="logo" to="/">
-          <img src="https://res.cloudinary.com/daf8fgekl/image/upload/c_scale,w_80/a_10/v1607673967/benjaminsteidl.com/Logo/logo_s_l7658i.png" alt="Benjamin Steidl"/>
+          <img src={Logo} alt="Benjamin Steidl"/>
         </Link>
-      </h1>
+      </div>
       <ul>
         <li>
           <Link to="/about">About</Link>

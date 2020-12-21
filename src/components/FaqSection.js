@@ -76,7 +76,7 @@ const FaqSection = () => {
       <Toggle title="Technical Skills">
         <div className="answer">
           <p>
-            HTML & CSS, Javascript ES6, Typescript, Ruby on Rails, React.js, Next.js, Gatsby, Postgre SQL
+            HTML & CSS, SASS, Styled-Cmponents, Javascript ES6, Typescript, Ruby on Rails, React.js, Next.js, Gatsby, Postgre SQL
           </p>
         </div>
       </Toggle>

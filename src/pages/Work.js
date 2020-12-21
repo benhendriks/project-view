@@ -51,6 +51,7 @@ const OurWork = () => {
   const [element3, controls3] = useScroll();
   const [element4, controls4] = useScroll();
   const [element5, controls5] = useScroll();
+  const [element6, controls6] = useScroll();
   return (
     <WorkStyle 
       exit="exit" 
@@ -163,6 +164,24 @@ const OurWork = () => {
             src="https://res.cloudinary.com/daf8fgekl/image/upload/v1607682472/benjaminsteidl.com/Recipe_api/recipe_search_mhwzbr.png" alt="Benjamin Steidl"
           />
         </a>
+      </Project>
+      <Project ref={element6} variants={fade} animate={controls6} initial='hidden'>
+        <motion.h2 variants={fade}>
+          Sick Fits 
+            <span>
+              <a href="https://github.com/benhendriks/19_advanced_react_graphql" target="blank">
+                <FaGithub />
+              </a>
+            </span>
+        </motion.h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+          <a href="https://github.com/benhendriks/19_advanced_react_graphql" target="blank">
+            <motion.img 
+              variants={photoAnim} 
+              src="https://res.cloudinary.com/daf8fgekl/image/upload/v1607682511/benjaminsteidl.com/Sick_Fits/sick_fits_log_n6h2tg.png" 
+              alt="Benjamin Steidl"
+            />
+          </a>
       </Project>
       <ScrollTop />
     </WorkStyle>
