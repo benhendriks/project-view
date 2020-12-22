@@ -36,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
   }
   h2 {
     font-weight: lighter;
-    font-size: 4.5rem; 
+    font-size: 5.5rem; 
     color: #eaeaea;
   }
   h3 {
