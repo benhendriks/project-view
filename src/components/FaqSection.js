@@ -60,7 +60,7 @@ const FaqSection = () => {
             </p>
           </div>
         </Toggle>
-        <Toggle title="Edjucation">
+        <Toggle title="Education">
           <div className="answer">
             <p>
               Le Wagon to Full Stack Developer
@@ -76,7 +76,7 @@ const FaqSection = () => {
       <Toggle title="Technical Skills">
         <div className="answer">
           <p>
-            HTML & CSS, SASS, Styled-Cmponents, Javascript ES6, Typescript, Ruby on Rails, React.js, Next.js, Gatsby, Postgre SQL
+            HTML & CSS, SASS, Styled-Components, Javascript ES6, Typescript, Ruby on Rails, React.js, Next.js, Gatsby, Postgre SQL
           </p>
         </div>
       </Toggle>
