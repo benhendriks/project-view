@@ -47,7 +47,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: 2rem;
   }
   a {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   span {
     font-weight: bold;

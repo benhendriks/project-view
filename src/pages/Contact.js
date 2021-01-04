@@ -49,7 +49,7 @@ const Social = styled(motion.div)`
   display: flex;
   align-items: center;
   h2 {
-    margin: 2rem;
+    margin: 2.3rem;
   }
   @media (max-width: 1300px) {
       h2 {
@@ -85,7 +85,7 @@ const ContactUs = () => {
             <a href="https://linkedin.com/in/benjaminsteidl-ux" target="blank">
               <FaLinkedin />
             </a>
-              <h2>Send me a Message</h2>
+              <h2>Send me a message</h2>
           </Social>
         </Hide>
         <Hide>
@@ -93,7 +93,7 @@ const ContactUs = () => {
             <a href="mailto:info@benjaminsteidl.com" target="blank">
               <FaEnvelope />
             </a>
-              <h2>Send me a Email</h2>
+              <h2>Send me an email</h2>
           </Social>
         </Hide>
         <Hide>

@@ -3,10 +3,9 @@ import styled from 'styled-components';
 
 const FooterStyle = styled.div`
   height: 6.5vh;
-  background: #ddbd54;
+  background: linear-gradient(to right, rgb(10, 8, 5), rgb(234, 234, 234));
   color: #eaeaea;
   width: 100%;
-  position: sticky;
   bottom: 0;
   text-align: center;
   z-index: 4;
