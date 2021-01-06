@@ -42,6 +42,9 @@ const NavStyle = styled.div`
         display: inline-block;
         margin: 1rem;
       }
+      a {
+        font-size: 1.8rem;
+      }
       ul {
         padding: 2rem;
         justify-content: space-around;
