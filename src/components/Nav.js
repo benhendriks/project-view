@@ -27,10 +27,6 @@ const NavStyle = styled.div`
     display: flex;
     list-style: none;
   }
-  #logo {
-    width: 2.5rem;
-    height: 2rem;
-  }
   li {
     padding-left: 10rem;
     position: relative; 
@@ -72,11 +68,9 @@ const Nav = () => {
   const {pathname} = useLocation();
   return (
     <NavStyle>
-      <div className="logo">
-        <Link id="logo" to="/">
-          <img src={Logo} alt="Benjamin Steidl"/>
-        </Link>
-      </div>
+      <Link id="logo" to="/">
+        <img src={Logo} alt="Benjamin Steidl"/>
+      </Link>
       <ul>
         <li>
           <Link to="/about">About</Link>
