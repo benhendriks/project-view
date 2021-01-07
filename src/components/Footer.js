@@ -23,7 +23,7 @@ const FooterStyle = styled.div`
 const Footer = () => {
   return (
     <FooterStyle>
-      <p>®Benjamin Steild</p>
+      <p>®Benjamin Steidl</p>
       <p>info@benjaminsteidl.com</p>
     </FooterStyle>
   );
