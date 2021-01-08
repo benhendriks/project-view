@@ -60,6 +60,7 @@ const GlobalStyle = createGlobalStyle`
     color: #eaeaea;
     font-size: 1.8rem;
     line-height: 150%;
+    letter-spacing: 1.2px;
   }
 `;
 
