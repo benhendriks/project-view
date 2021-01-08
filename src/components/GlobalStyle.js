@@ -19,19 +19,21 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
   }
   button {
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 3px solid #eaeaea; 
+    border: 1.5px solid #eaeaea; 
+    border-radius: 4px;
     background: transparent;
     color: white;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
     &:hover{
       background-color: #ddbd54;
       color: #050404;
-      border: 3px solid #ddbd54;
+      border: 1.5px solid #ddbd54;
     }
   }
   h2 {
@@ -56,7 +58,7 @@ const GlobalStyle = createGlobalStyle`
   p {
     padding: 3rem 0rem;
     color: #eaeaea;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 150%;
   }
 `;

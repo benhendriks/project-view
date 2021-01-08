@@ -116,7 +116,7 @@ const OurWork = () => {
       </Project>
       <Project ref={element3} variants={fade} animate={controls3} initial='hidden'>
         <motion.h2 variants={fade}>
-          Ignite game app  
+          Game app  
             <span>
               <a href="https://github.com/benhendriks/25_ignite" target="blank">
                 <FaGithub />
