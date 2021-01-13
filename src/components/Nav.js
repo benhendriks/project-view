@@ -58,7 +58,6 @@ const NavStyle = styled.div`
 `;
 const Line = styled(motion.div)`
   height: 0.3rem;
-  background: linear-gradient();
   width: 0%;
   bottom: -80%;
   left: 60%;

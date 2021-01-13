@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
   }
   h4 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   a {
     font-size: 2.5rem;

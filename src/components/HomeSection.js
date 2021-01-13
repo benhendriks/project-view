@@ -27,7 +27,7 @@ const AboutSection = () => {
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-              based in Bern 
+              based in Bern.
             </motion.h2>
           </Hide>
         </motion.div>
